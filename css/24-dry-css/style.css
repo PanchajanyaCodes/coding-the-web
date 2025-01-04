@@ -1,0 +1,27 @@
+/* DRY ==> DO NOT REPEAT YOURSELF. */
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #252323;
+}
+
+.btn {
+	border: 2px solid white;
+	border-radius: 30px;
+	padding: 20px 60px;
+	margin: 20px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #1f1f1f;
+	cursor: pointer;
+}
+
+.shop {
+	background-color: #fff;
+	color: #1f1f1f;
+	border: 6px solid #111;
+	padding: 20px 80px;
+}
