@@ -1,0 +1,34 @@
+body {
+	font-size: 20px;
+}
+
+.block {
+	background-color: rosybrown;
+	width: 200px;
+	height: 200px;
+}
+
+.inline {
+	background-color: teal;
+}
+
+.inline-block {
+	display: inline-block;
+	background-color: darkkhaki;
+	width: 80px;
+	height: 90px;
+}
+
+.display-inline {
+	background-color: slategrey;
+	display: inline;
+}
+
+.display-block {
+	background-color: springgreen;
+	display: block;
+}
+
+.display-none {
+	display: none;
+}

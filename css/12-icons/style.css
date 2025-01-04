@@ -1,0 +1,21 @@
+.fa-solid,
+.fa-brands {
+	font-size: 30px;
+	padding: 40px;
+}
+
+.fa-folder {
+	color: gold;
+}
+
+.fa-bug {
+	color: red;
+}
+
+.fa-microchip {
+	color: blue;
+}
+
+.fa-code-commit {
+	color: green;
+}

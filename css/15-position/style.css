@@ -1,0 +1,35 @@
+.container {
+	background-color: gray;
+	width: 900px;
+	height: 100%;
+}
+
+.d {
+	width: 100px;
+	height: 100px;
+}
+
+.one {
+	background-color: crimson;
+	position: relative;
+	left: 50px;
+}
+
+.two {
+	background-color: yellow;
+	position: absolute;
+	left: 500px;
+}
+
+.three {
+	background-color: green;
+	position: fixed;
+	left: 300px;
+	top: 250px;
+}
+
+.four {
+	background-color: firebrick;
+	position: sticky;
+	top: 0px;
+}

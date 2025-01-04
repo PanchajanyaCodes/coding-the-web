@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+}
+
+div {
+	/* background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 255, 0.158),
+			rgba(0, 128, 0, 0.221)
+		),
+		url("img/img1.jpg"); */
+
+	background-image: radial-gradient(
+			rgba(0, 0, 255, 0.303),
+			rgba(0, 128, 0, 0.432)
+		),
+		url("img/img1.jpg");
+
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}

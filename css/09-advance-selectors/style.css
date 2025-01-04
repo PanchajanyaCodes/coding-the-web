@@ -1,0 +1,57 @@
+/* Universal Selector */
+* {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 50px;
+}
+
+/* Class Selector */
+.two {
+	color: red;
+}
+
+.second {
+	background-color: aquamarine;
+}
+
+/* ID Selector */
+#one {
+	color: green;
+	font-family: cursive;
+}
+
+/* All elements inside section are selected */
+section * {
+	font-size: 20px;
+	border: 2px solid royalblue;
+}
+
+/* All elements with class '.world' is selected */
+div .world {
+	color: teal;
+}
+
+/* All h2 in div are selected */
+div h2 {
+	font-size: 20px;
+	color: olive;
+	background-color: black;
+}
+
+/* Select the p element with parent '.hello-world' class */
+.hello-world > p {
+	font-size: 24px;
+	background-color: crimson;
+}
+
+/* Select the p element that comes immediate after the '.immediate' class */
+.immediate + p {
+	color: rebeccapurple;
+}
+
+/* Attribute Selector */
+a[href="https://www.google.com"]
+{
+	font-size: 15px;
+	background-color: tomato;
+	color: black;
+}

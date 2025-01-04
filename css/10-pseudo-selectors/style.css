@@ -1,0 +1,19 @@
+a {
+	font-size: 20px;
+}
+
+.link:link {
+	color: red;
+}
+
+.visited:visited {
+	color: teal;
+}
+
+.hover:hover {
+	color: orangered;
+}
+
+.active:active {
+	color: goldenrod;
+}
